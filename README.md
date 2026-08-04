@@ -7,7 +7,7 @@ Estudante de **Engenharia de Software** na Universidade Federal do Ceará, com i
 ## Sobre mim
 
 - 🎓 Cursando **Engenharia de Software** na UFC
-- 🔍 Interesse em **Dados, IA e Desenvolvimento Back-end**
+- 🔍 Interesse em **Dados, IA e Desenvolvimento Full Stack**
 - 📚 Em constante aprendizado e aberto a novas oportunidades profissionais
 - 🌎 Ceará, Brasil
 
@@ -29,20 +29,31 @@ Estudante de **Engenharia de Software** na Universidade Federal do Ceará, com i
 
 ## 🚀 Projetos em destaque
 
-### [Cardapio-otimo](https://github.com/CauanHalison/Cardapio-otimo)
-Geração de planos de refeições semanais otimizados utilizando **Programação Linear Inteira Mista (MIP)** e **Algoritmo Genético** para minimizar custos e garantir metas nutricionais.
-
-### [mundo-dos-blocos-ia](https://github.com/CauanHalison/mundo-dos-blocos-ia)
-Implementação de diferentes **algoritmos de busca** (BFS, DFS, A*, etc.) para resolução do problema do Mundo dos Blocos — trabalho da disciplina de Inteligência Artificial.
+Sistema de Gerenciamento de Biblioteca (Fullstack)
+Desenvolvi uma solução completa e pronta para produção para controle de bibliotecas, dividida em uma API RESTful robusta e um painel web dinâmico e responsivo. O ecossistema foi desenhado com foco em segurança de dados, alta performance e arquitetura desacoplada.
+#### ⚙️ Backend (API) — [Acesse o Repositório](https://github.com/CauanHalison/library-api)
+Uma API segura e escalável responsável pelas regras de negócio e persistência dos dados.
+* **Stack**: Java 21, Spring Boot 3.4.5, Spring Data JPA, PostgreSQL e Docker.
+* **Segurança (OAuth2)**: Implementação de um **Servidor de Autorização (Authorization Server)** e **Servidor de Recursos (Resource Server)** customizados com Spring Security para emissão e validação de tokens JWT, além de suporte a Login Social (Google OAuth2).
+* **Consultas Avançadas**: Filtros dinâmicos e paginação inteligente implementados utilizando **JPA Specifications**.
+* **Documentação**: Especificação de endpoints de ponta a ponta gerada automaticamente via Swagger UI (OpenAPI).
+#### 💻 Frontend (Web App) — [Acesse o Repositório](https://github.com/CauanHalison/library-front)
+Uma interface de usuário moderna, rápida e altamente interativa para gerenciamento de livros e autores.
+* **Stack**: Vue 3 (Composition API), Vite, TypeScript, Tailwind CSS v4 e Pinia.
+* **Autenticação com JWT**: Fluxo seguro de Login e Controle de Sessão integrado ao fluxo OAuth2 do Backend com armazenamento persistido usando Pinia.
+* **Experiência do Usuário (UX)**: Layout totalmente responsivo com micro-animações, modais inteligentes e sistema de alerta global para feedback instantâneo de ações.
 
 ### [hypnos-data](https://github.com/CauanHalison/hypnos-data-1)
 Análise de padrões de estilo de vida que influenciam a qualidade do sono — desenvolvido no **Bootcamp de Ciências de Dados do Atlântico Avanti 2025**.
+
+### [Cardapio-otimo](https://github.com/CauanHalison/Cardapio-otimo)
+Geração de planos de refeições semanais otimizados utilizando **Programação Linear Inteira Mista (MIP)** e **Algoritmo Genético** para minimizar custos e garantir metas nutricionais.
 
 ---
 
 ## 🎯 Objetivos e trajetória
 
-Estou em formação como engenheiro de software e busco atuar em áreas com forte demanda técnica, como dados, back-end e soluções baseadas em IA. Meu objetivo é construir uma carreira sólida em empresas que valorizem inovação e boas práticas de engenharia.
+Estou em formação como engenheiro de software e busco atuar em áreas com forte demanda técnica, como dados,front-end, back-end e soluções baseadas em IA. Meu objetivo é construir uma carreira sólida em empresas que valorizem inovação e boas práticas de engenharia.
 
 ---
 
