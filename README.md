@@ -29,6 +29,7 @@ Estudante de **Engenharia de Software** na Universidade Federal do Ceará, com i
 
 ## 🚀 Projetos em destaque
 
+### Bibliotech
 Sistema de Gerenciamento de Biblioteca (Fullstack)
 Desenvolvi uma solução completa e pronta para produção para controle de bibliotecas, dividida em uma API RESTful robusta e um painel web dinâmico e responsivo. O ecossistema foi desenhado com foco em segurança de dados, alta performance e arquitetura desacoplada.
 #### ⚙️ Backend (API) — [Acesse o Repositório](https://github.com/CauanHalison/library-api)
