@@ -38,11 +38,16 @@ Uma API segura e escalável responsável pelas regras de negócio e persistênci
 * **Segurança (OAuth2)**: Implementação de um **Servidor de Autorização (Authorization Server)** e **Servidor de Recursos (Resource Server)** customizados com Spring Security para emissão e validação de tokens JWT, além de suporte a Login Social (Google OAuth2).
 * **Consultas Avançadas**: Filtros dinâmicos e paginação inteligente implementados utilizando **JPA Specifications**.
 * **Documentação**: Especificação de endpoints de ponta a ponta gerada automaticamente via Swagger UI (OpenAPI).
-#### 💻 Frontend (Web App) — [Acesse o Repositório](https://github.com/CauanHalison/library-front)
+#### 💻 Frontend Vue.js (Web App) — [Acesse o Repositório](https://github.com/CauanHalison/library-front) 
 Uma interface de usuário moderna, rápida e altamente interativa para gerenciamento de livros e autores.
 * **Stack**: Vue 3 (Composition API), Vite, TypeScript, Tailwind CSS v4 e Pinia.
 * **Autenticação com JWT**: Fluxo seguro de Login e Controle de Sessão integrado ao fluxo OAuth2 do Backend com armazenamento persistido usando Pinia.
 * **Experiência do Usuário (UX)**: Layout totalmente responsivo com micro-animações, modais inteligentes e sistema de alerta global para feedback instantâneo de ações.
+#### 💻 Frontend React (Web App) — [Acesse o Repositório](https://github.com/CauanHalison/library-front-react) 
+Uma interface de usuário moderna, rápida e altamente interativa para gerenciamento de livros e autores.
+* **Stack**: React 19, Vite, TypeScript, Tailwind CSS v4 e React Router 7.
+* **Autenticação com JWT**: Fluxo seguro de Login e Controle de Sessão integrado ao fluxo OAuth2 do Backend com gerenciamento de estado global via Context API e tokens persistidos no localStorage.
+* **Experiência do Usuário (UX)**: Layout totalmente responsivo com micro-animações, modais inteligentes e sistema de alerta global integrado (`AlertContext` + `AlertModal`) para feedback instantâneo de ações.
 
 ### [hypnos-data](https://github.com/CauanHalison/hypnos-data-1)
 Análise de padrões de estilo de vida que influenciam a qualidade do sono — desenvolvido no **Bootcamp de Ciências de Dados do Atlântico Avanti 2025**.
